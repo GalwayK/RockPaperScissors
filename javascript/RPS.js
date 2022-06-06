@@ -1,4 +1,3 @@
-console.log("Working.\n");
 window.onload = () =>
 {
     let makeComputerHand = () =>
