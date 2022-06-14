@@ -5,10 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./javascript/RPS.js"></script>
+    <link rel = stylesheet href = ./css/RPS.css></link>
     <title>Rock Paper Scissors</title>
 </head>
 <body style = "text-align: center;">
-    <h1> Rock Paper Scissors</h1>
+    <header>
+        <h1> Rock Paper Scissors</h1>
+    </header>
+
+    <main>
+
+        <div class = outputText> 
+
+            <p>
+                Select an option: Rock, Paper, or Scissors!
+            </p>
+
+            <p class = playerScore>
+                <br>
+            </p>
+
+            <p class = computerScore>
+                <br>
+            </p>
+
+            <p class = winner>
+                <br>
+            </p>
+        </div>
+
+        <div class = images>
+            <img src = ./images/rock.svg class = "image rockImage" alt = "A image of a rock.">
+            <img src = ./images/paper.svg class = "image scissorImage" alt = "A image of paper.">
+            <img src = ./images/scissors.svg class = "image paperImage" alt = "An image of scissors.">
+        </div>
+
+        <div class = buttons>
+            <span class = playButtons>
+                <button class = rockButton> Rock! </button>
+                <button class = paperButton> Paper! </button>
+                <button class = scissorButton> Scissors! </button> 
+            </span>
+            <button class = reset> Reset </button>
+        </div>
+    </main>
+    
+
+    <footer>
+        By Kyle Galway
+    </footer>
     
 </body>
 </html>
